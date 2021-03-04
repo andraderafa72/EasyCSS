@@ -1,0 +1,41 @@
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progressbar {
+  min-width: 200px;
+  min-height: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 128, 0, 0)), color-stop(rgba(0, 128, 0, 0.7)), to(green));
+  background: linear-gradient(to right, rgba(0, 128, 0, 0), rgba(0, 128, 0, 0.7), green);
+  -webkit-animation: progressAnim 1.5s infinite ease;
+          animation: progressAnim 1.5s infinite ease;
+}
+
+@-webkit-keyframes progressAnim {
+  0% {
+    background-position-x: -200px;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+@keyframes progressAnim {
+  0% {
+    background-position-x: -200px;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

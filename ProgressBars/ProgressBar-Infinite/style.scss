@@ -1,0 +1,28 @@
+// ALINHAMENTO NA PÁGINA - NÃO NECESSÁRIO PARA O FUNCIONAMENTO DA BARRA DE PROGRESSO
+main{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// PROGRESS BAR
+$primary-color:rgba(0, 128, 0, 1);
+$secondary-color:rgba(0, 128, 0, .7);
+$terceary-color:rgba(0, 128, 0, 0);
+
+$bar-width: 200px;
+$bar-heigth: 5px;
+
+.progressbar{
+  min-width: $bar-width;
+  min-height: $bar-heigth;
+  background: linear-gradient(to right, $terceary-color, $secondary-color, $primary-color);
+  animation: progressAnim 1.5s infinite ease;
+}
+
+@keyframes progressAnim{
+  0%{background-position-x: -$bar-width;}
+  100%{background-position-x: 100%;}
+}
