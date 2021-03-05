@@ -102,9 +102,9 @@ File fade-in.scss
   <li>
     Import the Easy.min.css in your HTML or CSS file:
     
-    ```css
-    @import './Path/To/fade-in.scss';
-    ``` 
+   ```css
+   @import './Path/To/fade-in.scss';
+   ``` 
     
    ```html
    <link href="css/Easy.min.css" rel="stylesheet">
