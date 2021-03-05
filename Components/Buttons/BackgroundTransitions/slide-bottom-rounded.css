@@ -1,0 +1,50 @@
+.slide-bottom-rounded {
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid #2F80ED;
+}
+
+.slide-bottom-rounded::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: -webkit-gradient(linear, left top, right top, from(#56CCF2), to(#2F80ED));
+  background: linear-gradient(to right, #56CCF2 0%, #2F80ED 100%);
+  z-index: -1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.slide-bottom-rounded:hover {
+  color: white;
+}
+
+.slide-bottom-rounded:hover::before {
+  -webkit-animation: roundedButtonBottom .7s ease;
+          animation: roundedButtonBottom .7s ease;
+  height: 100%;
+}
+
+@-webkit-keyframes roundedButtonBottom {
+  0% {
+    border-radius: 0 0 40px 40px;
+  }
+  100% {
+    border-radius: 0;
+  }
+}
+
+@keyframes roundedButtonBottom {
+  0% {
+    border-radius: 0 0 40px 40px;
+  }
+  100% {
+    border-radius: 0;
+  }
+}
+/*# sourceMappingURL=slide-bottom-rounded.css.map */

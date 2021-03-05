@@ -1,0 +1,56 @@
+.slide-right-rounded {
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid #2F80ED;
+}
+
+.slide-right-rounded::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#56CCF2), to(#2F80ED));
+  background: linear-gradient(to right, #56CCF2 0%, #2F80ED 100%);
+  z-index: -1;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+.slide-right-rounded:hover {
+  color: white;
+}
+
+.slide-right-rounded:hover::before {
+  width: 100%;
+  -webkit-animation: roundedButtonRight .7s;
+          animation: roundedButtonRight .7s;
+}
+
+@-webkit-keyframes roundedButtonRight {
+  0% {
+    border-radius: 20px 0 0 20px;
+  }
+  50% {
+    border-radius: 20px 0 0 20px;
+  }
+  100% {
+    border-radius: 0;
+  }
+}
+
+@keyframes roundedButtonRight {
+  0% {
+    border-radius: 20px 0 0 20px;
+  }
+  50% {
+    border-radius: 20px 0 0 20px;
+  }
+  100% {
+    border-radius: 0;
+  }
+}
+/*# sourceMappingURL=slide-right-rounded.css.map */
