@@ -1,16 +1,20 @@
-# Easy CSS
-The Easy CSS brings several ready-made components using only CSS / SCSS. Just download and use! <br>
+# EasyCSS
+The EasyCSS brings several ready-made components using only CSS / SCSS. Just download and use! <br>
 [See examples of components on GitHub Pages](https://andraderafa72.github.io/frontend-kit)
 # How To Use
+EasyCSS can be used in a variety of ways; You can copy and paste the chosen animation, download the file of the chosen animation or download the EasyCSS minified file and reference it in your HTML.
+
+### How To Find Your Component
+In this directory you can find Buttons, Inputs and Progressbars (Working to add Cards, Links, Paragraphs and Titles)
+
+```bash
+Components/The Component You Want/file.(s)css
+```
 
 <ol>
 <li>Copy the CSS/SASS of the animation that you have chosen or Download the corresponding file.</li>
 <br>
   
-### Folders
-
-Components/The Component You Want/file.(s)css
-
 <br>
 
 File fade-in.scss
