@@ -1,21 +1,33 @@
 # Easy CSS
 The Easy CSS brings several ready-made components using only CSS / SCSS. Just download and use! <br>
 [See examples of components on GitHub Pages](https://andraderafa72.github.io/frontend-kit)
-# Usage
+# How To Use
+
 <ol>
-<li>Copy the CSS/SASS of the animation that you have chosen or Download the file.</li>
+<li>Copy the CSS/SASS of the animation that you have chosen or Download the corresponding file.</li>
 <br>
+  
+File fade-in.scss
 
 ```css
 .fade-in{
+  position: relative;
   padding: 8px 16px;
-  // ...
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid #2F80ED;
+  &:hover{
+      transition: .7s ease;
+      background: #2F80ED;
+  }
 }
 ```
 
 <br>
 <li>Add to the element you want to animate the classes present in the CSS/SASS.</li>
 <br>
+
+Add this to your HTML
 
 ```html
 <a href="#" class="fade-in">Hover me</a>
