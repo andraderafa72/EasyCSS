@@ -1,0 +1,119 @@
+@import './partials/variables';
+@import './partials/buttons';
+@import './partials/progress-bars';
+@import './partials/inputs';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+html{overflow-x: hidden; scroll-behavior: smooth;}
+body{background-color: #1a1a1a;}
+
+.hero{
+  background: $blue-gradient;
+  min-width: 100vw;
+  min-height: 25vh;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1{
+    margin: 0;
+    font-size: 4rem;
+    color: white;
+  }
+}
+
+
+main{
+  max-width: 1024px;
+  margin: 0 auto;
+
+  .menu{
+    width: 100%;
+    max-width: 1024px;
+    ul{
+      width: 100%;
+      padding: 8px 12px;
+      list-style: none;
+      li{
+        width: 100%;
+        a{
+          margin: 0;
+          padding: 12px;
+          display: inline-flex;
+          justify-content: space-between;
+          width: 100%;
+          text-align: left; 
+          border-radius: 8px;
+          font-size: 1.2rem;
+          img{
+            width: 24px;
+            height: 24px;
+          }
+          &:hover{
+            background-color: #222;
+            transition: .4s ease;
+          }
+        }
+      }
+    }
+  }
+
+  h1{
+    font-size: 3rem;
+    margin: 54px 0 24px;
+  }
+
+  h2{
+    margin: 14px 0 24px;
+    opacity: 0.8;
+  }
+  div{margin-bottom: 24px;}
+}
+section{border-bottom: 1px solid gray;}
+input{color: black; font-size: 1rem; &:focus{outline: none;}}
+a{
+  text-decoration: none;
+  opacity: .9;
+  color: $font-color;
+  text-align: center;
+  margin: 4px;
+  &:hover{opacity: 1;}
+}
+
+p{margin-bottom: 8px; color: #d8c40d;}
+
+.buttons{
+  padding: 0px 12px;
+  display: flex;
+  flex-direction: column;
+
+  div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .button{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-width: 180px;
+      a{margin-bottom: 12px; width: 100%;}
+    }
+  }
+}
+
+.progressbars{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+}

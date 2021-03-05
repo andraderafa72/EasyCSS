@@ -1,0 +1,74 @@
+@import './animations';
+@import './variables';
+
+
+// INFINITE
+.progressbar-infinite{
+  width: $bar-width;
+  min-height: $bar-heigth;
+  background: $gradient;
+  animation: progressAnim 1.5s infinite ease;
+  margin: 0 24px;
+}
+
+// INFINITE WITH STEPS
+
+.progressbar-infinite-steps{
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  a{
+    margin: 20px 0; 
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid $button-color; 
+    transition: .7s ease;
+    &:hover{background-color: $button-background-color; color: white;}
+  }
+}
+
+.progressbar{
+  position: relative;
+  width: $bar-width;
+  height: $bar-heigth;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.progressbar-loading{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  max-width: 200px;
+  min-height: $bar-heigth;
+  background: $gradient;
+  animation: progressAnim 1.5s infinite ease;
+}
+
+.complete-progress{
+  background-color: $primary-color;
+  width: $complete-bar-width;
+  min-height: $bar-heigth;
+  border-right: 4px solid #1a1a1a;
+  z-index: 2;
+}
+
+// PROGRESSBAR BY %
+.progressbar-percentage-loading{
+  width: $bar-width;
+  height: $bar-heigth;
+
+  background-color: #f2f2f2;
+
+  .progressbar{
+    width: 0%;
+    height: $bar-heigth;
+    background: $gradient;
+    animation: progressLoading 5s infinite ease ;
+  }
+}

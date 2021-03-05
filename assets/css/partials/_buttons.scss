@@ -1,0 +1,432 @@
+// ---------
+// < SLIDE >
+// ---------
+// SLIDE LEFT ON HOVER
+.slide-left{
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid $button-border-color;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &:hover{
+    color: white;
+
+    &::before{
+      width: 100%;
+    }
+  }
+}
+
+
+// SLIDE RIGHT ON HOVER
+.slide-right{
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid $button-border-color;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &:hover{
+    color: white;
+
+    &::before{
+      width: 100%;
+    }
+  }
+}
+
+// SLIDE TOP ON HOVER
+.slide-top{
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid $button-border-color;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &:hover{
+    color: white;
+
+    &::before{
+      height: 100%;
+    }
+  }
+}
+
+// SLIDE BOTTOM ON HOVER
+.slide-bottom{
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid $button-border-color;
+
+  &::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &:hover{
+    color: white;
+
+    &::before{
+      height: 100%;
+    }
+  }
+}
+
+
+.slide-top-bottom{
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid $button-border-color;
+
+  &::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &:hover{
+    color: white;
+
+    &::before, &::after{
+      height: 50%;
+    }
+  }
+}
+
+.slide-left-right{
+  position: relative;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  border: 1px solid $button-border-color;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: $blue-gradient;
+    z-index: -1;
+    transform: rotate(180deg);
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: $blue-gradient;
+    z-index: -1;
+    transition: .7s ease; // TEMPO DE TRANSIÇÃO
+  }
+
+  &:hover{
+    color: white;
+
+    &::before,&::after{
+      width: 51%;
+    }
+  }
+}
+// </ SLIDE >
+// ----------
+
+// ---------
+// < SKEW >
+// ---------
+.skew-left{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background-color: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: skewX(12deg);
+  }
+}
+
+.skew-right{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: skewX(-12deg);
+  }
+}
+
+.skew-top{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: skewY(3deg);
+  }
+}
+
+.skew-bottom{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: skewY(-3deg);
+  }
+}
+
+.skewed-left{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+  transform: skewX(12deg);
+
+  &:hover{
+    transform: skewX(0deg);
+  }
+}
+.skewed-right{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+  transform: skewX(-12deg);
+
+  &:hover{
+    transform: skewX(0deg);
+  }
+}
+.skewed-top{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+  transform: skewY(3deg);
+
+  &:hover{
+    transform: skewY(0deg);
+  }
+}
+.skewed-bottom{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+  transform: skewY(-3deg);
+
+  &:hover{
+    transform: skewY(0deg);
+  }
+}
+
+
+// </ SKEW >
+// ----------
+
+// ----------
+// < SHAKE >
+// ----------
+.shake-x{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    animation: shakeButtonX .15s ease;
+  }
+}
+
+.shake-y{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    animation: shakeButtonY .15s ease;
+  }
+}
+
+.shake-rotate-right{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    animation: shakeRotateRightButton .15s ease;
+  }
+}
+.shake-rotate-left{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    animation: shakeRotateLeftButton .15s ease;
+  }
+}
+
+
+// </ SHAKE >
+// ----------
+
+// ----------
+// < SCALE >
+// ----------
+.scale-x{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: scaleX(1.1);
+  }
+}
+
+.scale-y{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: scaleY(1.1);
+  }
+}
+
+.scale{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+
+.scale-3d{
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: $button-color;
+  color: white;
+  transition: .4s ease;
+
+  &:hover{
+    transform: scale3d(1.1, 1.2, 1.3);
+  }
+}
+
+
+// </ SCALE >
+// ----------

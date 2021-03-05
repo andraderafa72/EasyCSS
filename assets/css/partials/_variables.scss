@@ -1,0 +1,16 @@
+$primary-color:#56CCF2;
+$secondary-color:#2F80ED;
+$terceary-color: rgba(47, 129, 237, 0.1);
+$button-color:#2F80ED;
+$gradient: linear-gradient(to right, $terceary-color, $secondary-color, $primary-color);
+
+$body-gradient: linear-gradient(to right, #434343, #000000);
+$blue-gradient: linear-gradient(to right, #56CCF2 0%, #2F80ED 100%);
+
+$font-color: white;
+$button-background-color: linear-gradient(to right, #76b852, #8dc26f); // COR DO BACKGROUND
+$button-border-color: #2F80ED; // COR DA BORDA
+
+$bar-width: 200px;
+$bar-heigth: 8px;
+$complete-bar-width: 50px;
