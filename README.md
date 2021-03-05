@@ -7,6 +7,14 @@ The Easy CSS brings several ready-made components using only CSS / SCSS. Just do
 <li>Copy the CSS/SASS of the animation that you have chosen or Download the corresponding file.</li>
 <br>
   
+Folders
+
+<br>
+
+Components/The Component You Want/file.(s)css
+
+<br>
+
 File fade-in.scss
 
 ```css
