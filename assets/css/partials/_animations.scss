@@ -18,6 +18,33 @@
   100%{transform: translateX(2px);}
 } 
 
+@keyframes button3d{
+  0%{border-radius: 0 100% 0;}
+  100%{border-radius: 0;}
+}
+
+@keyframes roundedButtonLeft{
+  0%{border-radius: 0 20px 20px 0;}
+  50%{border-radius: 0 20px 20px 0;}
+  100%{border-radius: 0;}
+}
+
+@keyframes roundedButtonRight{
+  0%{border-radius: 20px 0 0 20px ;}
+  50%{border-radius: 20px 0 0 20px;}
+  100%{border-radius: 0;}
+}
+
+@keyframes roundedButtonTop{
+  0%{border-radius: 40px 40px 0 0;}
+  100%{border-radius: 0;}
+}
+
+@keyframes roundedButtonBottom{
+  0%{border-radius: 0 0 40px 40px;}
+  100%{border-radius: 0;}
+}
+
 @keyframes shakeButtonY{
   0%{transform: translateY(2px);}
   25%{transform: translateY(0px);}

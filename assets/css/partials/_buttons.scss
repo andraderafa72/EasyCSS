@@ -2,431 +2,619 @@
 // < SLIDE >
 // ---------
 // SLIDE LEFT ON HOVER
-.slide-left{
-  position: relative;
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  border: 1px solid $button-border-color;
-
-  &::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &:hover{
-    color: white;
-
-    &::before{
-      width: 100%;
+.fade-in{
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &:hover{
+        transition: .7s ease;
+        background: $button-color;
     }
-  }
+}
+.fade-out{
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    background: $button-color;
+    &:hover{
+        transition: .7s ease;
+        background: transparent;
+    }
 }
 
+.slide-left {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            width: 100%;
+        }
+    }
+}
 
 // SLIDE RIGHT ON HOVER
-.slide-right{
-  position: relative;
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  border: 1px solid $button-border-color;
-
-  &::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0%;
-    height: 100%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &:hover{
-    color: white;
-
-    &::before{
-      width: 100%;
+.slide-right {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }
-  }
+    &:hover {
+        color: white;
+        &::before {
+            width: 100%;
+        }
+    }
 }
 
 // SLIDE TOP ON HOVER
-.slide-top{
-  position: relative;
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  border: 1px solid $button-border-color;
-
-  &::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &:hover{
-    color: white;
-
-    &::before{
-      height: 100%;
+.slide-bottom {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }
-  }
+    &:hover {
+        color: white;
+        &::before {
+            height: 100%;
+        }
+    }
 }
 
 // SLIDE BOTTOM ON HOVER
-.slide-bottom{
-  position: relative;
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  border: 1px solid $button-border-color;
-
-  &::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &:hover{
-    color: white;
-
-    &::before{
-      height: 100%;
+.slide-top {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }
-  }
+    &:hover {
+        color: white;
+        &::before {
+            height: 100%;
+        }
+    }
 }
 
-
-.slide-top-bottom{
-  position: relative;
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  border: 1px solid $button-border-color;
-
-  &::before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &:hover{
-    color: white;
-
-    &::before, &::after{
-      height: 50%;
+.slide-top-bottom {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }
-  }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before,
+        &::after {
+            height: 50%;
+        }
+    }
 }
 
-.slide-left-right{
-  position: relative;
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  border: 1px solid $button-border-color;
-
-  &::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0%;
-    height: 100%;
-    background: $blue-gradient;
-    z-index: -1;
-    transform: rotate(180deg);
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background: $blue-gradient;
-    z-index: -1;
-    transition: .7s ease; // TEMPO DE TRANSIÇÃO
-  }
-
-  &:hover{
-    color: white;
-
-    &::before,&::after{
-      width: 51%;
+.slide-left-right {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transform: rotate(180deg);
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }
-  }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before,
+        &::after {
+            width: 51%;
+        }
+    }
 }
+
+.slide-left-rounded {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -2;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            width: 100%;
+            animation: roundedButtonLeft .7s;
+        }
+    }
+}
+
+// SLIDE RIGHT ON HOVER
+.slide-right-rounded {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            width: 100%;
+            animation: roundedButtonRight .7s;
+        }
+    }
+}
+
+.slide-rotate-left {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            width: 100%;
+            animation: button3d .7s;
+        }
+    }
+}
+.slide-rotate-right {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transform: rotateY(-180deg);
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            width: 100%;
+            animation: button3d .7s;
+        }
+    }
+}
+
+// SLIDE TOP ON HOVER
+.slide-bottom-rounded {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            animation: roundedButtonBottom .7s ease;
+            height: 100%;
+        }
+    }
+}
+
+// SLIDE BOTTOM ON HOVER
+.slide-top-rounded {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before {
+            height: 100%;
+            animation: roundedButtonTop .7s ease-out;
+        }
+    }
+}
+
+.slide-lr-rounded {
+    position: relative;
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    border: 1px solid $button-border-color;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transform: rotate(180deg);
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+    }
+    &:hover {
+        color: white;
+        &::before{
+            width: 51%;
+            animation: roundedButtonLeft .7s ease;
+        }
+        &::after{
+            width: 51%;
+            animation: roundedButtonLeft .7s ease;
+        }
+    }
+}
+
 // </ SLIDE >
 // ----------
-
 // ---------
 // < SKEW >
 // ---------
-.skew-left{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background-color: $button-color;
-  color: white;
-  transition: .4s ease;
+.skew-left {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: skewX(12deg);
+    }
+}
 
-  &:hover{
+.skew-right {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: skewX(-12deg);
+    }
+}
+
+.skew-top {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: skewY(3deg);
+    }
+}
+
+.skew-bottom {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: skewY(-3deg);
+    }
+}
+
+.skewed-left {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
     transform: skewX(12deg);
-  }
+    &:hover {
+        transform: skewX(0deg);
+    }
 }
 
-.skew-right{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
+.skewed-right {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
     transform: skewX(-12deg);
-  }
+    &:hover {
+        transform: skewX(0deg);
+    }
 }
 
-.skew-top{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
+.skewed-top {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
     transform: skewY(3deg);
-  }
+    &:hover {
+        transform: skewY(0deg);
+    }
 }
 
-.skew-bottom{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
+.skewed-bottom {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
     transform: skewY(-3deg);
-  }
+    &:hover {
+        transform: skewY(0deg);
+    }
 }
-
-.skewed-left{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-  transform: skewX(12deg);
-
-  &:hover{
-    transform: skewX(0deg);
-  }
-}
-.skewed-right{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-  transform: skewX(-12deg);
-
-  &:hover{
-    transform: skewX(0deg);
-  }
-}
-.skewed-top{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-  transform: skewY(3deg);
-
-  &:hover{
-    transform: skewY(0deg);
-  }
-}
-.skewed-bottom{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-  transform: skewY(-3deg);
-
-  &:hover{
-    transform: skewY(0deg);
-  }
-}
-
 
 // </ SKEW >
 // ----------
-
 // ----------
 // < SHAKE >
 // ----------
-.shake-x{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    animation: shakeButtonX .15s ease;
-  }
+.shake-x {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        animation: shakeButtonX .15s ease;
+    }
 }
 
-.shake-y{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    animation: shakeButtonY .15s ease;
-  }
+.shake-y {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        animation: shakeButtonY .15s ease;
+    }
 }
 
-.shake-rotate-right{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    animation: shakeRotateRightButton .15s ease;
-  }
-}
-.shake-rotate-left{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    animation: shakeRotateLeftButton .15s ease;
-  }
+.shake-rotate-right {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        animation: shakeRotateRightButton .15s ease;
+    }
 }
 
+.shake-rotate-left {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        animation: shakeRotateLeftButton .15s ease;
+    }
+}
 
 // </ SHAKE >
 // ----------
-
 // ----------
 // < SCALE >
 // ----------
-.scale-x{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    transform: scaleX(1.1);
-  }
+.scale-x {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: scaleX(1.1);
+    }
 }
 
-.scale-y{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    transform: scaleY(1.1);
-  }
+.scale-y {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: scaleY(1.1);
+    }
 }
 
-.scale{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    transform: scale(1.1);
-  }
+.scale {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
-.scale-3d{
-  padding: 8px 16px;
-  display: inline-block;
-  font-size: 1rem;
-  background: $button-color;
-  color: white;
-  transition: .4s ease;
-
-  &:hover{
-    transform: scale3d(1.1, 1.2, 1.3);
-  }
+.scale-3d {
+    padding: 8px 16px;
+    display: inline-block;
+    font-size: 1rem;
+    background: $button-color;
+    color: white;
+    transition: .4s ease;
+    &:hover {
+        transform: scale3d(1.1, 1.2, 1.3);
+    }
 }
-
 
 // </ SCALE >
 // ----------
