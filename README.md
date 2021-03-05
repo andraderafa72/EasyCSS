@@ -10,9 +10,50 @@ In this directory you can find Buttons, Inputs and Progressbars (Working to add 
 ```bash
 Components/The Component You Want/file.(s)css
 ```
+<br>
+
+### A. Download The Specific File
 
 <ol>
-<li>Copy the CSS/SASS of the animation that you have chosen or Download the corresponding file.</li>
+<li>
+  Download the specific file of the component you chose in the folder:
+   We will use the fade-in.scss for this example;
+  
+  ```bash
+  # Components/The Component You Want/file.(s)css
+  Components/Buttons/fade-in.scss
+  ```  
+  
+  </li>
+  <br>
+
+  <li>
+  Add this to your main CSS file:
+  <br>
+  
+  ```css
+  @import './Path/To/fade-in.scss';
+  ``` 
+  
+  </li>
+
+<br>
+<li>
+  Add the class to your HTML and it's working!
+
+  ```html
+  <a href="#" class="fade-in">Hover me</a>
+  ```
+  
+</li>
+
+<br>
+</ol>
+
+### B. Copy and Paste
+
+<ol>
+<li>Copy the CSS/SASS of the animation that you have chosen and paste into your CSS file.</li>
 <br>
   
 <br>
@@ -20,6 +61,8 @@ Components/The Component You Want/file.(s)css
 File fade-in.scss
 
 ```css
+/* Components/Buttons/fade-in.scss */
+
 .fade-in{
   position: relative;
   padding: 8px 16px;
@@ -34,16 +77,43 @@ File fade-in.scss
 ```
 
 <br>
-<li>Add to the element you want to animate the classes present in the CSS/SASS.</li>
-<br>
+<li>
+  Add the class to your HTML and it's working!
 
-Add this to your HTML
+  ```html
+  <a href="#" class="fade-in">Hover me</a>
+  ```
+  
+</li>
+</ol>
 
-```html
-<a href="#" class="fade-in">Hover me</a>
-```
 
-<br>
+### C. Download Easy.min.css
+
+<ol>
+  <li>Download the file Easy.min.css</li>
+  <li>
+    Import the Easy.min.css in your HTML or CSS file:
+    
+    ```css
+    @import './Path/To/fade-in.scss';
+    ``` 
+    
+   ```html
+   <link href="css/Easy.min.css" rel="stylesheet">
+   ```
+  
+  </li>
+  <li>
+    Now you have everyting from us!
+  
+   ```html
+   <a href="#" class="fade-in">Hover me</a>
+   <input type="text" name="" id="" class="input-text-1">
+   <div class="progressbar-infinite"></div>
+   ```
+   
+  </li>
 </ol>
 
 # Buttons
@@ -75,3 +145,5 @@ Buttons with background transitions on hover
       <li><a href="">Slide Rotate Right</a></li>
     </ul>
 </nav>
+
+<a href="https://www.buymeacoffee.com/" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" width="217" height="51" ></a>
