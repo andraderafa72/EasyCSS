@@ -12,16 +12,16 @@ Components/The Component You Want/file.(s)css
 ```
 <br>
 
-### A. Download The Specific File
+### A. Downloading The Specific File
 
 <ol>
 <li>
-  Download the specific file of the component you chose in the folder:
-   We will use the fade-in.scss for this example;
+  Download the specific file of the component you chose in the folder: <br>
+   We will use the fade-in.css for this example;
   
   ```bash
   # Components/The Component You Want/file.(s)css
-  Components/Buttons/fade-in.scss
+  Components/Buttons/fade-in.css
   ```  
   
   </li>
@@ -32,7 +32,14 @@ Components/The Component You Want/file.(s)css
   <br>
   
   ```css
-  @import './Path/To/fade-in.scss';
+  @import './Path/To/fade-in.css';
+  ``` 
+  
+  or this in your HTML file:
+  <br>
+  
+  ```html
+  <link href="css/fade-in.css" rel="stylesheet">
   ``` 
   
   </li>
