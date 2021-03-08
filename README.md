@@ -43,23 +43,28 @@ The EasyCSS brings several ready-made components using only CSS / SCSS. Just dow
   </li>
 </ol>
 
-# How To Use <div id="how-to-use" />
+<div id="how-to-use" />
+
+# How To Use 
 EasyCSS can be used in a variety of ways; You can copy and paste the chosen animation, download the file of the chosen animation or download the EasyCSS minified file and reference it in your HTML.
 
-### How To Find Your Component <div id="how-to-find" />
+<div id="how-to-find" />
+
+### How To Find Your Component 
 In this directory you can find Buttons, Inputs and Progressbars (Working to add Cards, Links, Paragraphs and Titles)
 
 ```bash
 Components/The Component You Want/file.(s)css
 ```
-<br>
 
-### A. Downloading The Specific File <div id="htu-a" />
+<div id="htu-a" />
+
+### A. Downloading The Specific File 
 
 <ol>
 <li>
   Download the specific file of the component you chose in the folder: <br>
-   We will use the fade-in.css for this example; <br>
+   We will use the fade-in.css for this example; <br> <br>
   
   ```bash
   # Components/The Component You Want/file.(s)css
@@ -67,7 +72,6 @@ Components/The Component You Want/file.(s)css
   ```  
   
   </li>
-  <br>
 
   <li>
   Add this to your main CSS file:
@@ -95,11 +99,11 @@ Components/The Component You Want/file.(s)css
   ```
   
 </li>
-
-<br>
 </ol>
 
-### B. Copy and Paste <div id="htu-b" />
+<div id="htu-b" />
+
+### B. Copy and Paste 
 
  
 <ol>
@@ -135,8 +139,9 @@ File fade-in.scss
 </li>
 </ol>
 
+<div id="htu-c" />
 
-### C. Download Easy.min.css  <div id="htu-c" />
+### C. Download Easy.min.css  
 
 
 <ol>
@@ -154,7 +159,7 @@ File fade-in.scss
   
   </li>
   <li>
-    Now you have everyting from us!
+    Now you have everyting from us! <br> <br>
   
    ```html
    <a href="#" class="fade-in">Hover me</a>
@@ -165,11 +170,19 @@ File fade-in.scss
   </li>
 </ol>
 
-# Components <div id="components" />
+<div id="components" />
+
+# Components 
 Here you can see all of our components.
 
-# Buttons <div id="buttons" />
-## Background Transitions <br> <div id="bg-transitions" />
+<div id="buttons" />
+
+# Buttons 
+Here you can see all of our Buttons.
+
+<div id="bg-transitions" />
+
+## Background Transitions <br> 
 Buttons with background transitions on hover
 <nav style="list-style:none;">
   <h3>Fade</h3>
@@ -198,7 +211,9 @@ Buttons with background transitions on hover
     </ul>
 </nav>
 
-## 2D Transitions <br> <div id="2d-transitions" />
+<div id="2d-transitions" />
+
+## 2D Transitions <br> 
 Buttons with background transitions on hover
 <nav style="list-style:none;">
   <h3>Skew</h3>
