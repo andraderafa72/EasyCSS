@@ -187,27 +187,27 @@ Buttons with background transitions on hover
 <nav style="list-style:none;">
   <h3>Fade</h3>
   <ul>
-     <li><a href="">Fade In</a></li>
-      <li><a href="">Fade Out</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/fade-in.css">Fade In</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/fade-out.css">Fade Out</a></li>
     </ul>
   <h3>Slide</h3>
     <ul>
-      <li><a href="">Slide Left</a></li>
-      <li><a href="">Slide Right</a></li>
-      <li><a href="">Slide Top</a></li>
-      <li><a href="">Slide Bottom</a></li>
-      <li><a href="">Slide Left-Right</a></li>
-      <li><a href="">Slide Top-Botom</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-left.css">Slide Left</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-right.css">Slide Right</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-top.css">Slide Top</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-bottom.css">Slide Bottom</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-left-right.css">Slide Left-Right</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-top-bottom.css">Slide Top-Botom</a></li>
     </ul>
   <h3>Slide Rounded</h3>
     <ul>
-      <li><a href="">Slide Left Rounded</a></li>
-      <li><a href="">Slide Right Rounded</a></li>
-      <li><a href="">Slide Top Rounded</a></li>
-      <li><a href="">Slide Bottom Rounded</a></li>
-      <li><a href="">Slide Left-Right Rounded</a></li>
-      <li><a href="">Slide Rotate Left</a></li>
-      <li><a href="">Slide Rotate Right</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-left-rounded.css">Slide Left Rounded</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-right-rounded.css">Slide Right Rounded</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-top-rounded.css">Slide Top Rounded</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-bottom-rounded.css">Slide Bottom Rounded</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-lr-rounded.css">Slide Left-Right Rounded</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-rotate-left.css">Slide Rotate Left</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/BackgroundTransitions/slide-rotate-right.css">Slide Rotate Right</a></li>
     </ul>
 </nav>
 
@@ -218,28 +218,28 @@ Buttons with background transitions on hover
 <nav style="list-style:none;">
   <h3>Skew</h3>
   <ul>
-     <li><a href="">Skew Left</a></li>
-     <li><a href="">Skew Right</a></li>
-     <li><a href="">Skew Top</a></li>
-     <li><a href="">Skew Bottom</a></li>
-     <li><a href="">Skewed Left</a></li>
-     <li><a href="">Skew Right</a></li>
-     <li><a href="">Skewed Top</a></li>
-     <li><a href="">Skewed Bottom</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skew-left.css">Skew Left</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skew-right.css">Skew Right</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skew-top.css">Skew Top</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skew-bottom.css">Skew Bottom</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skewed-left.css">Skewed Left</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skewed-right.css">Skew Right</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skewed-top.css">Skewed Top</a></li>
+     <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/skewed-bottom.css">Skewed Bottom</a></li>
     </ul>
   <h3>Scale</h3>
     <ul>
-      <li><a href="">Scale</a></li>
-      <li><a href="">Scale X</a></li>
-      <li><a href="">Scale Y</a></li>
-      <li><a href="">Scale 3D</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/scale.css">Scale</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/scale-x.css">Scale X</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/scale-y.css">Scale Y</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/scale-3d.css">Scale 3D</a></li>
     </ul>
   <h3>Shake</h3>
     <ul>
-      <li><a href="">Shake X</a></li>
-      <li><a href="">Shake Y</a></li>
-      <li><a href="">Shake Rotate Left</a></li>
-      <li><a href="">Shake Rotate Right</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/shake-x.css">Shake X</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/shake-y.css">Shake Y</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/shake-rotate-left.css">Shake Rotate Left</a></li>
+      <li><a href="https://github.com/andraderafa72/EasyCSS/blob/master/Components/Buttons/2DTransitions/shake-rotate-right.css">Shake Rotate Right</a></li>
     </ul>
 </nav>
   
