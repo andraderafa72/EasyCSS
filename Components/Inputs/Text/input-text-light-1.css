@@ -1,0 +1,11 @@
+.input-text-light-1 {
+  border-radius: 6px;
+  padding: 8px 10px;
+  width: 80%;
+  background-color: #f8f8f8;
+}
+
+.input-text-light-1:focus {
+  border: 2px solid #2F80ED;
+}
+/*# sourceMappingURL=input-text-light-1.css.map */

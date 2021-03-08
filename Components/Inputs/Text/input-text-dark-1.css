@@ -1,0 +1,49 @@
+.input-text-dark-1 {
+  border-radius: 6px;
+  padding: 10px 12px;
+  width: 80%;
+  background-color: transparent;
+  border-style: none;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-bottom: 2px solid #474747;
+  color: white !important;
+}
+
+.input-text-dark-1::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-text-dark-1:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-text-dark-1::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-text-dark-1::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-text-dark-1:focus {
+  border-bottom: 2px solid #2F80ED;
+  background-color: #111;
+}
+
+.input-text-dark-1:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input-text-dark-1:focus:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input-text-dark-1:focus::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.input-text-dark-1:focus::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+/*# sourceMappingURL=input-text-dark-1.css.map */
