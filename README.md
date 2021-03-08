@@ -149,7 +149,9 @@ File fade-in.scss
 
 
 <ol>
-  <li>Download the file EasyCSS.zip and extract in any folder.</li> 
+  <li>Download the file EasyCSS.zip and extract in any folder.
+    <a href="https://github.com/andraderafa72/EasyCSS/archive/master.zip">Click here to download the EasyCSS</a>
+  </li> 
   <li>
     Move the Easy.min.css to your CSS folder.
     <ul>
