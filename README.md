@@ -70,7 +70,11 @@ Components/The Component You Want/file.(s)css
   # Components/The Component You Want/file.(s)css
   Components/Buttons/fade-in.css
   ```  
-  
+  #### Dowloading Files
+  <ul>
+  <li>After entering the file link, click on 'raw'.</li>
+  <li>After entering the 'raw' page, right click on the page, select the 'save as ...' option and choose the directory where your CSS files are stored.</li>
+  </ul>
   </li>
 
   <li>
