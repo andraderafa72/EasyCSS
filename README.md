@@ -1,10 +1,52 @@
 # EasyCSS
 The EasyCSS brings several ready-made components using only CSS / SCSS. Just download and use! <br>
 [See examples of components on GitHub Pages](https://andraderafa72.github.io/frontend-kit)
-# How To Use
+
+# What you will find here
+
+<ol>
+  <li>
+    <a href="#how-to-use">How To Use</a>
+    <ul>
+      <li><a href="#how-to-find">How To Find Your Component</a></li>
+      <li><a href="#htu-a">Downloading The Specific File</a></li>
+      <li><a href="#htu-b">Copy and Paste</a></li>
+      <li><a href="#htu-c">Download Easy.min.css</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#components">Components</a>
+    <ul>
+      <li>
+        <a href="#buttons">Buttons</a>
+        <ul>
+          <li>
+            <a href="#bg-transitions">Background Transitions</a>
+          </li>
+          <li>
+            <a href="#2d-transitions">2D Transitions</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="">Inputs</a>
+        <ul>
+          <li>
+            <a href="">Light</a>
+          </li>
+          <li>
+            <a href="">Dark</a>
+          </li>
+        </ul>
+      </li>
+    </ul>    
+  </li>
+</ol>
+
+# How To Use <div id="how-to-use" />
 EasyCSS can be used in a variety of ways; You can copy and paste the chosen animation, download the file of the chosen animation or download the EasyCSS minified file and reference it in your HTML.
 
-### How To Find Your Component
+### How To Find Your Component <div id="how-to-find" />
 In this directory you can find Buttons, Inputs and Progressbars (Working to add Cards, Links, Paragraphs and Titles)
 
 ```bash
@@ -12,7 +54,7 @@ Components/The Component You Want/file.(s)css
 ```
 <br>
 
-### A. Downloading The Specific File
+### A. Downloading The Specific File <div id="htu-a" />
 
 <ol>
 <li>
@@ -57,8 +99,9 @@ Components/The Component You Want/file.(s)css
 <br>
 </ol>
 
-### B. Copy and Paste
+### B. Copy and Paste <div id="htu-b" />
 
+ 
 <ol>
 <li>Copy the CSS/SASS of the animation that you have chosen and paste into your CSS file.</li>
 <br>
@@ -93,7 +136,8 @@ File fade-in.scss
 </ol>
 
 
-### C. Download Easy.min.css
+### C. Download Easy.min.css  <div id="htu-c" />
+
 
 <ol>
   <li>Download the file Easy.min.css</li> <br> <br>
@@ -121,8 +165,11 @@ File fade-in.scss
   </li>
 </ol>
 
-# Buttons
-## Background Transitions <br>
+# Components <div id="components" />
+Here you can see all of our components.
+
+# Buttons <div id="buttons" />
+## Background Transitions <br> <div id="bg-transitions" />
 Buttons with background transitions on hover
 <nav style="list-style:none;">
   <h3>Fade</h3>
@@ -151,4 +198,33 @@ Buttons with background transitions on hover
     </ul>
 </nav>
 
+## 2D Transitions <br> <div id="2d-transitions" />
+Buttons with background transitions on hover
+<nav style="list-style:none;">
+  <h3>Skew</h3>
+  <ul>
+     <li><a href="">Skew Left</a></li>
+     <li><a href="">Skew Right</a></li>
+     <li><a href="">Skew Top</a></li>
+     <li><a href="">Skew Bottom</a></li>
+     <li><a href="">Skewed Left</a></li>
+     <li><a href="">Skew Right</a></li>
+     <li><a href="">Skewed Top</a></li>
+     <li><a href="">Skewed Bottom</a></li>
+    </ul>
+  <h3>Scale</h3>
+    <ul>
+      <li><a href="">Scale/li>
+      <li><a href="">Scale X</a></li>
+      <li><a href="">Scale Y</a></li>
+      <li><a href="">Scale 3D</a></li>
+    </ul>
+  <h3>Shake>
+    <ul>
+      <li><a href="">Shake X</a></li>
+      <li><a href="">Shake Y</a></li>
+      <li><a href="">Shake Rotate Left</a></li>
+      <li><a href="">Shake Rotate Right</a></li>
+    </ul>
+</nav>
 <a href="https://www.buymeacoffee.com/andraderafa72" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" width="217" height="51" ></a>
