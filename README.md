@@ -145,11 +145,19 @@ File fade-in.scss
 
 <div id="htu-c" />
 
-### C. Download Easy.min.css  
+### C. Download EasyCSS 
 
 
 <ol>
-  <li>Download the file Easy.min.css</li> <br> <br>
+  <li>Download the file EasyCSS.zip and extract in any folder.</li> 
+  <li>
+    Move the Easy.min.css to your CSS folder.
+    <ul>
+      <li>If you want only one type of component, choose de file 'Easy-ComponentYouWant.min.css</li>
+      <li>ALl the files are independent.</li>
+    </ul>
+  </li>
+  <br> <br>
   <li>
     Import the Easy.min.css in your HTML or CSS file: <br> <br>
     
