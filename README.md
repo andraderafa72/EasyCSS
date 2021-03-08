@@ -229,12 +229,12 @@ Buttons with background transitions on hover
     </ul>
   <h3>Scale</h3>
     <ul>
-      <li><a href="">Scale/li>
+      <li><a href="">Scale</a></li>
       <li><a href="">Scale X</a></li>
       <li><a href="">Scale Y</a></li>
       <li><a href="">Scale 3D</a></li>
     </ul>
-  <h3>Shake>
+  <h3>Shake</h3>
     <ul>
       <li><a href="">Shake X</a></li>
       <li><a href="">Shake Y</a></li>
@@ -242,4 +242,5 @@ Buttons with background transitions on hover
       <li><a href="">Shake Rotate Right</a></li>
     </ul>
 </nav>
+  
 <a href="https://www.buymeacoffee.com/andraderafa72" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" width="217" height="51" ></a>
