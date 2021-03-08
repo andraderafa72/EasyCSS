@@ -155,8 +155,8 @@ File fade-in.scss
   <li>
     Move the Easy.min.css to your CSS folder.
     <ul>
-      <li>If you want only one type of component, choose de file 'Easy-ComponentYouWant.min.css</li>
-      <li>ALl the files are independent.</li>
+      <li>If you want only one type of component, choose de file 'Easy-ComponentYouWant.min.css'</li>
+      <li>All the files are independent.</li>
     </ul>
   </li>
   <br> <br>
@@ -168,7 +168,7 @@ File fade-in.scss
    ``` 
     
    ```html
-   <link href="css/Easy.min.css" rel="stylesheet">
+   <link href="./Path/To/Easy.min.css" rel="stylesheet">
    ```
   
   </li>
