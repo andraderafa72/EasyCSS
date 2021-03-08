@@ -1,0 +1,61 @@
+.shake-y {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.shake-y:hover {
+  -webkit-animation: shakeButtonY .15s ease;
+          animation: shakeButtonY .15s ease;
+}
+
+@-webkit-keyframes shakeButtonY {
+  0% {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  25% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  75% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+}
+
+@keyframes shakeButtonY {
+  0% {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+  25% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+  75% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+}
+/*# sourceMappingURL=shake-y.css.map */

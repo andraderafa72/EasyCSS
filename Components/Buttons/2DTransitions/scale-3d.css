@@ -1,0 +1,15 @@
+.scale-3d {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.scale-3d:hover {
+  -webkit-transform: scale3d(1.1, 1.2, 1.3);
+          transform: scale3d(1.1, 1.2, 1.3);
+}
+/*# sourceMappingURL=scale-3d.css.map */

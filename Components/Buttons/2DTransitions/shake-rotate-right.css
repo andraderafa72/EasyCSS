@@ -1,0 +1,61 @@
+.shake-rotate-right {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.shake-rotate-right:hover {
+  -webkit-animation: shakeRotateRightButton .15s ease;
+          animation: shakeRotateRightButton .15s ease;
+}
+
+@-webkit-keyframes shakeRotateRightButton {
+  0% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+@keyframes shakeRotateRightButton {
+  0% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  25% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+/*# sourceMappingURL=shake-rotate-right.css.map */

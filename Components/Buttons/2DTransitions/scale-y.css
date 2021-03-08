@@ -1,0 +1,15 @@
+.scale-y {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.scale-y:hover {
+  -webkit-transform: scaleY(1.1);
+          transform: scaleY(1.1);
+}
+/*# sourceMappingURL=scale-y.css.map */

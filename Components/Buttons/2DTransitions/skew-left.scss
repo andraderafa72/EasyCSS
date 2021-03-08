@@ -1,0 +1,11 @@
+.skew-left {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #2F80ED;
+  color: white;
+  transition: .4s ease;
+  &:hover {
+      transform: skewX(12deg);
+  }
+}

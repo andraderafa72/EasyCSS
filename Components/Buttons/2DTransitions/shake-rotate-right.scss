@@ -1,0 +1,19 @@
+.shake-rotate-right {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  transition: .4s ease;
+  &:hover {
+      animation: shakeRotateRightButton .15s ease;
+  }
+}
+
+@keyframes shakeRotateRightButton{
+  0%{transform: rotate(2deg);}
+  25%{transform: rotate(0deg);}
+  50%{transform: rotate(-2deg);}
+  75%{transform: rotate(0deg);}
+  100%{transform: rotate(2deg);}
+} 

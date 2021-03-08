@@ -1,0 +1,15 @@
+.skew-bottom {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.skew-bottom:hover {
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+}
+/*# sourceMappingURL=skew-bottom.css.map */

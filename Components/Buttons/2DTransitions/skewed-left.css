@@ -1,0 +1,17 @@
+.skewed-left {
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 1rem;
+  background: #2F80ED;
+  color: white;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+  -webkit-transform: skewX(12deg);
+          transform: skewX(12deg);
+}
+
+.skewed-left:hover {
+  -webkit-transform: skewX(0deg);
+          transform: skewX(0deg);
+}
+/*# sourceMappingURL=skewed-left.css.map */
