@@ -17,7 +17,7 @@ Components/The Component You Want/file.(s)css
 <ol>
 <li>
   Download the specific file of the component you chose in the folder: <br>
-   We will use the fade-in.css for this example;
+   We will use the fade-in.css for this example; <br>
   
   ```bash
   # Components/The Component You Want/file.(s)css
@@ -29,7 +29,7 @@ Components/The Component You Want/file.(s)css
 
   <li>
   Add this to your main CSS file:
-  <br>
+  <br> <br>
   
   ```css
   @import './Path/To/fade-in.css';
@@ -46,7 +46,7 @@ Components/The Component You Want/file.(s)css
 
 <br>
 <li>
-  Add the class to your HTML and it's working!
+  Add the class to your HTML and it's working! <br> <br>
 
   ```html
   <a href="#" class="fade-in">Hover me</a>
@@ -61,8 +61,6 @@ Components/The Component You Want/file.(s)css
 
 <ol>
 <li>Copy the CSS/SASS of the animation that you have chosen and paste into your CSS file.</li>
-<br>
-  
 <br>
 
 File fade-in.scss
@@ -85,7 +83,7 @@ File fade-in.scss
 
 <br>
 <li>
-  Add the class to your HTML and it's working!
+  Add the class to your HTML and it's working! <br> <br>
 
   ```html
   <a href="#" class="fade-in">Hover me</a>
@@ -98,12 +96,12 @@ File fade-in.scss
 ### C. Download Easy.min.css
 
 <ol>
-  <li>Download the file Easy.min.css</li>
+  <li>Download the file Easy.min.css</li> <br> <br>
   <li>
-    Import the Easy.min.css in your HTML or CSS file:
+    Import the Easy.min.css in your HTML or CSS file: <br> <br>
     
    ```css
-   @import './Path/To/fade-in.scss';
+   @import './Path/To/Easy.min.scss';
    ``` 
     
    ```html
