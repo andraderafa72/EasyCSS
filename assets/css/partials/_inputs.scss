@@ -4,10 +4,9 @@
   justify-content: center;
   align-items: center;
   border: 2px solid transparent;
-  
 }
 
-.input-text-1{
+.input-text-light-1{
   border-radius: 6px;
   padding: 8px 10px; 
   width: 80%;   
@@ -16,7 +15,7 @@
   &:focus{border: 2px solid $button-color}
 }
 
-.input-text-2{
+.input-text-dark-1{
   border-radius: 6px;
   padding: 10px 12px; 
   width: 80%;   

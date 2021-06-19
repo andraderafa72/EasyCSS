@@ -150,7 +150,7 @@
         content: '';
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         width: 100%;
         height: 0%;
         background: $blue-gradient;
@@ -176,7 +176,7 @@
         content: '';
         position: absolute;
         top: 0;
-        right: 0;
+        left: 0;
         width: 0%;
         height: 100%;
         background: $blue-gradient;
@@ -188,7 +188,7 @@
         content: '';
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         width: 0%;
         height: 100%;
         background: $blue-gradient;
@@ -218,7 +218,7 @@
         width: 0%;
         height: 100%;
         background: $blue-gradient;
-        z-index: -2;
+        z-index: -1;
         transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }
     &:hover {
@@ -373,22 +373,22 @@
         content: '';
         position: absolute;
         top: 0;
-        right: 0;
-        width: 0%;
-        height: 100%;
-        background: $blue-gradient;
-        z-index: -1;
-        transform: rotate(180deg);
-        transition: .7s ease; // TEMPO DE TRANSIÇÃO
-    }
-    &::after {
-        content: '';
-        position: absolute;
-        top: 0;
         left: 0;
         width: 0%;
         height: 100%;
         background: $blue-gradient;
+        z-index: -1;
+        transition: .7s ease; // TEMPO DE TRANSIÇÃO
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0%;
+        height: 100%;
+        background: $blue-gradient;
+        transform: rotate(180deg);
         z-index: -1;
         transition: .7s ease; // TEMPO DE TRANSIÇÃO
     }

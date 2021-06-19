@@ -1,7 +1,7 @@
 @import './partials/variables';
-@import './partials/buttons';
-@import './partials/progress-bars';
-@import './partials/inputs';
+// @import './partials/buttons';
+// @import './partials/progress-bars';
+// @import './partials/inputs';
 * {
     margin: 0;
     padding: 0;
@@ -117,7 +117,7 @@ p {
     div {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         .button {
             display: flex;
